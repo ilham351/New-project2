@@ -7,9 +7,9 @@ public class GanjilGenap {
      * @param n Bilangan yang akan diperiksa.
      */
     public static void cekBilangan(int n) {
-        // Cek apakah bilangan adalah genap atau ganjil
+        
         if (n % 2 == 0) {
-            // Jika bilangan genap, cetak hasilnya
+            
             System.out.println(n + " adalah bilangan genap");
         } else {
             // Jika bilangan ganjil, cetak hasilnya
@@ -39,10 +39,4 @@ public class GanjilGenap {
                 System.out.println("Input tidak valid. Silakan masukkan bilangan bulat.");
                 scanner.next(); // Buang input yang tidak valid
             }
-        }
-
-        
-        System.out.println("---------------------------------");
-        System.out.println("Program selesai.");
-    }
-}
+    
